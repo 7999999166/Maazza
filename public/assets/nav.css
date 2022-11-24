@@ -1,0 +1,88 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  color: rgb(76, 39, 211);
+  background-color: rgba(0, 0, 0, 0.178);
+}	
+.flex-container2 {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  color: rgb(76, 39, 211);
+  background-color: rgba(0, 0, 0, 0.178);
+  justify-content: space-evenly ;
+  
+}	
+
+.vani1{
+  height: 80px;
+}
+.vani2{
+  height: 100px;
+  margin-bottom: 220px;
+}
+
+.anhg{
+  padding-left: 5%;
+}
+
+ 
+.jakku{
+  margin-left: 40px;
+} 
+
+
+.kanikas{
+display: flex;	
+flex-direction: row;
+align-items: center;
+color: rgb(103, 10, 43);
+justify-content: center;
+
+
+}
+
+li{
+    list-style-type: none;
+    margin-right: 10%;
+   
+}
+
+@media screen and (max-width: 691px) {
+    .kanikas{
+        color :brown;
+    }
+    .dhirta{
+  margin-right: 10px;
+}
+}
+
+
+
+@media screen and (min-width: 691px) {
+
+.kumra{
+  display: none;
+}
+}
+
+
+@media screen and (max-width: 691px) {
+  .chamda{
+    display: none;
+  }
+}
+@media screen and (max-width: 691px) {
+  .gullu{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: azure;
+  }
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
